@@ -16,3 +16,53 @@ html, body {
   background: #000;
 }
 
+@media (max-width: 768px) {
+  .limg img {
+    width: 100% !important;
+    margin-top: 27vw !important;
+    position: absolute;
+    top: 100%;
+    margin-left: 25vh;
+    transform: translate(-50%, -50%);
+  }
+
+  .limg {
+    height: 300px !important;
+    width: 100% !important;
+    position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .textgta {
+    top: 10rem !important;
+    left: 75% !important;
+    transform: translateX(-50%) !important;
+    
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .textgta h1 {
+    font-size: 20vw !important;
+    margin-left: 0 !important;
+  }
+}
+@media (max-width: 768px) {
+  .ps5-img {
+    height: 35px !important;
+    position: relative !important;
+    left: 49% !important;
+    transform: none !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .character {
+    bottom: -10% !important;
+    scale: 1.1 !important;
+    transform: translateX(-50%) !important;
+    left: 58% !important;
+    position: absolute !important;
+  }
+}
