@@ -153,7 +153,7 @@ function App() {
             <div className="bottombar flex absolute bottom-0 left-0 w-full py-12 px-10 bg-gradient-to-t from-black to-transparent">
               <div className="flex items-center  text-white gap-2">
                 <i className="text-2xl ri-arrow-down-line"></i>
-                <h3 className="text-sm font-[poppins]">Scroll Now</h3>
+                <h3 className="text-sm font-[poppins]">Navneet Now</h3>
               </div>
               <div>
                 <img
